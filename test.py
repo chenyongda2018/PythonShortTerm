@@ -7,3 +7,5 @@ ret = requests.post(url, data=json.dumps(payload),headers=headers)
 print(ret.url)
 print(ret.text)
 
+https://design-patterns.readthedocs.io/zh_CN/latest/creational_patterns/simple_factory.html
+
