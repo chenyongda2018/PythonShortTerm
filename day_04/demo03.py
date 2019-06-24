@@ -20,4 +20,4 @@ if __name__ == "__main__":
     http_server.listen(options.port)
     # 表示可以接受浏览器请求，相当于Javaweb中启动了tomcat服务器
     tornado.ioloop.IOLoop.instance().start()
-   # 此时在浏览器输入localhost:8090
+   # 此时在浏览器输入localhost:8090，会出现欢迎语
